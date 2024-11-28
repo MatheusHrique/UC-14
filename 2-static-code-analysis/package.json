@@ -6,7 +6,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start1": "node ex1.js",
     "start2": "node ex2.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:ex1": "eslint ex1.js", 
+    "lint:ex2": "eslint ex2.js",
+    "lint:fix": "eslint . --fix"
   },
   "author": "",
   "license": "ISC",
